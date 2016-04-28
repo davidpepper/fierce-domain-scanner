@@ -85,20 +85,20 @@ internal address space. That's especially useful in targeted malware.
 
 ## fierce Usage Example
 
-root@kali:~# fierce -dns example.com
-DNS Servers for example.com:
-    b.iana-servers.net
-    a.iana-servers.net
-
-Trying zone transfer first...
+    root@kali:~# fierce -dns example.com
+      DNS Servers for example.com:
+        b.iana-servers.net
+        a.iana-servers.net
+    
+    Trying zone transfer first...
     Testing b.iana-servers.net
         Request timed out or transfer not allowed.
     Testing a.iana-servers.net
         Request timed out or transfer not allowed.
 
-Unsuccessful in zone transfer (it was worth a shot)
-Okay, trying the good old fashioned way... brute force
+    Unsuccessful in zone transfer (it was worth a shot)
+    Okay, trying the good old fashioned way... brute force
 
-Checking for wildcard DNS...
-Nope. Good.
-Now performing 2280 test(s)...
+    Checking for wildcard DNS...
+    Nope. Good.
+    Now performing 2280 test(s)...
