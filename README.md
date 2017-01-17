@@ -1,6 +1,8 @@
 Fierce.pl Domain Scanner
 =====================
 
+## ORIGINAL AUTHOR: RSnake (https://twitter.com/rsnake)
+
 ## Overview:
 
 Fierce is a semi-lightweight scanner that helps locate non-contiguous
